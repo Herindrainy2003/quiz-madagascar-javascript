@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devinette</title>
+</head>
+<body>
+    <h2>Jeu Devinette</h2>
+    <div id="question"></div>
+    <div id="result"></div>
+    <input type="text" id="response">
+    <button id="verify_response">Verifier</button>
+    <button id="restart">Rejouer</button>
+    <style>
+        body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+#question {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#result {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+#response {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+#verify_response,
+#restart {
+  padding: 8px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#verify_response {
+  margin-right: 10px;
+}
+
+#restart {
+  background-color: #ccc;
+  border: none;
+  color: #fff;
+  background-color: #4caf50;
+}
+
+#restart:hover {
+  background-color: #45a049;
+}
+
+    </style>
+<script src="index.js"></script>
+</body>
+</html>
